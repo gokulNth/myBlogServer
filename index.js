@@ -4,6 +4,8 @@ const cors = require('cors')
 const app = express();
 app.use(cors())
 
+// const fs = require('fs');
+
 const { data } = require('./BlogData/index');
 const { sortByKey, generateResp, shuffle, isValuePresent } = require('./utils');
 
@@ -87,6 +89,20 @@ app.get('/search/:searchStr', (req, res) => {
     }));
     res.send({ data: generateResp(pageNum, sortByKey(blogDataByTag, "createdTime", true).slice(start, end), blogDataByTag) })
 })
+
+// app.paztch('/:id', (req, res) => {
+//     const { id } = req.params;
+//     const { likes } = req.body;
+//     const newBlogData = data.map(blog => {
+//         if (blog.id === id) {
+//             const likeObj = {};
+//             if (likes.claps) likeObj.claps = likes.claps || blog.likes.claps || 0
+//             if (likes.hearts) likeObj.hearts = likes.hearts || blog.likes.hearts || 0
+//             return Object.assign({}, blog, { likes: likeObj })
+//         }
+//         return blog
+//     })
+// })
 
 
 app.listen(port, () => {
