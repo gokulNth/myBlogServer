@@ -1,0 +1,23 @@
+[
+    {
+        "quoteImage": "image",
+        "quote": "All our dreams can come true; if we have the courage to pursue them.",
+        "quoteBy": "Walt Disney",
+        "createdTime": "1883314051957",
+        "color": "orange"
+    },{
+        "quoteImage": "image",
+        "quoteBy": "Walt Disney",
+        "createdTime": "1881114051957",
+        "color": "blue"
+    },{
+        "quote": "However difficult life may seem, there is always something you can do and succeed at.",
+        "quoteBy": "Stephen Hawking",
+        "createdTime": "1881114051957",
+        "color": "orange"
+    },{
+        "quote": "The secret of success in every field is redefining what success means to you. It can’t be your parent’s definition, the media’s definition, or your neighbor’s definition. Otherwise, success will never satisfy you.",
+        "createdTime": "1899314051957",
+        "color": "green"
+    }
+]
