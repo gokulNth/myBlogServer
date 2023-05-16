@@ -1,23 +1,46 @@
 [
     {
-        "quoteImage": "image",
+        "id": "90000001",
+        "quoteImage": "image1.jpeg",
         "quote": "All our dreams can come true; if we have the courage to pursue them.",
         "quoteBy": "Walt Disney",
         "createdTime": "1883314051957",
         "color": "orange"
     },{
-        "quoteImage": "image",
+        "id": "90000002",
+        "quoteImage": "image2.jpeg",
         "quoteBy": "Walt Disney",
         "createdTime": "1881114051957",
         "color": "blue"
     },{
+        "id": "90000003",
         "quote": "However difficult life may seem, there is always something you can do and succeed at.",
         "quoteBy": "Stephen Hawking",
         "createdTime": "1881114051957",
         "color": "orange"
     },{
+        "id": "90000004",
+        "quote": "All our dreams can come true; if we have the courage to pursue them.All our dreams can come true; if we have the courage to pursue them.",
+        "quoteImage": "image1.jpeg",
+        "quoteBy": "Walt Disney 1",
+        "createdTime": "1811114051957",
+        "color": "blue"
+    },{
+        "id": "90000005",
+        "quote": "However difficult life may seem, there is always something you can do and succeed at.However difficult life may seem, there is always something you can do and succeed at.However difficult life may seem, there is always something you can do and succeed at.",
+        "quoteBy": "Walt Disney 2",
+        "createdTime": "1841114051957",
+        "color": "blue"
+    },{
+        "id": "90000006",
         "quote": "The secret of success in every field is redefining what success means to you. It can’t be your parent’s definition, the media’s definition, or your neighbor’s definition. Otherwise, success will never satisfy you.",
         "createdTime": "1899314051957",
         "color": "green"
-    }
+    },{
+        "id": "90000007",
+        "quoteImage": "image2.jpeg",
+        "quote": "The secret of success in every field",
+        "createdTime": "1899554051957",
+        "color": "green"
+    }    
 ]
